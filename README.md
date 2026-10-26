@@ -16,20 +16,6 @@ This repository contains my solutions to coding problems that I solve on [Hacker
 
 - **C** — Primary language for solving practice problems.
 
-## 📂 Repository Structure
-
-```text
-HackerRank-Practice/
-│
-├── C/
-│   ├── Solve-Me-First.c
-│   ├── Hello-World.c
-│   └── Other-Solutions.c
-│
-└── README.md
-```
-
-*The structure may change as I solve more problems.*
 
 ## 📚 Topics Covered
 
@@ -48,9 +34,9 @@ I am continuously learning, practicing, and improving my programming skills thro
 
 ## 🔗 My Profiles
 
-- **HackerRank:** [Add your HackerRank profile link here](https://www.hackerrank.com/)
+- **HackerRank:** [https://www.hackerrank.com/profile/panatshrujal)
 - **GitHub:** [Shru_lker](https://github.com/Shru_lker)
-- **LeetCode:** [Add your LeetCode profile link here](https://leetcode.com/)
+- **LeetCode:** [https://leetcode.com/u/shrujalpanat/)
 
 ## ⭐ Contributions and Feedback
 
