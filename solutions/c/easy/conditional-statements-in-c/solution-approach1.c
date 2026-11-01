@@ -7,6 +7,12 @@
 // Language    c
 // Status      Accepted
 // Submitted   2026-11-01, 06:40 p.m.
+// Technique   if-else-if-ladder
+// Time        O(1)
+// Space       O(1)
+// Insight     The program maps a discrete range of integers to specific string literals using a sequential conditional ladder, defaulting to a catch-all branch for any value exceeding nine.
+// Interview   Before: "I would use a switch statement or an array of strings to handle these mappings." After: "While those are cleaner, this if-else ladder performs in O(1) time and O(1) space, effectively handling the constraint n > 9 by falling through to the final else block."
+// Pitfalls    (1) Failing to handle the n > 9 case correctly by omitting the final else block.  (2) Using incorrect string literals that do not match the lowercase English word requirement.  (3) Misinterpreting the range 1 to 9 by using incorrect comparison operators in the conditional chain.
 // ──────────────────────────────────────────────────
 
 
