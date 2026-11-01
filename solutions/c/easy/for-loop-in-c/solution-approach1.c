@@ -7,6 +7,12 @@
 // Language    c
 // Status      Accepted
 // Submitted   2026-11-01, 08:15 p.m.
+// Technique   iterative-conditional-range-processing
+// Time        O(b - a)
+// Space       O(1)
+// Insight     The implementation iterates through the inclusive range [a, b] and applies conditional logic to map integers 1-9 to their English names while classifying integers greater than 9 based on parity.
+// Interview   Before: "How would you handle printing specific strings for a range of numbers?" After: "I iterate from a to b inclusive, using a series of if-else statements to check for values 1-9 and parity for values greater than 9, resulting in O(b - a) time complexity."
+// Pitfalls    (1) Failing to include the upper bound b in the loop condition, which requires using i <= b instead of i < b.  (2) Incorrectly handling the parity check for numbers greater than 9 by omitting the i > 9 condition.  (3) Using an incorrect sequence of if-else statements that might prematurely catch values before reaching the parity check.
 // ──────────────────────────────────────────────────
 
 
