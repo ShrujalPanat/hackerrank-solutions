@@ -7,6 +7,12 @@
 // Language    c
 // Status      Accepted
 // Submitted   2026-11-02, 10:41 p.m.
+// Technique   modulo-conditional-branching
+// Time        O(n)
+// Space       O(1)
+// Insight     The implementation prioritizes the least common multiple of three and five to handle the combined condition before checking individual divisors.
+// Interview   Before: "How would you handle the overlapping multiples of 3 and 5?" After: "I check the modulo 15 condition first to ensure the combined case is caught, resulting in O(n) time complexity for the 100 iterations."
+// Pitfalls    (1) Checking modulo 3 or 5 before modulo 15 causes incorrect output for multiples of 15.  (2) Using an incorrect loop range like i < 100 instead of i <= 100 fails to print the final number.
 // ──────────────────────────────────────────────────
 
 
